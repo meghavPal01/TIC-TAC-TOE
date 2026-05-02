@@ -262,6 +262,24 @@ export default function TicTacToe() {
 
   return (
     <>
+      <div className="bg-lines">
+        <div className="h-line"></div>
+        <div className="h-line"></div>
+        <div className="h-line"></div>
+        <div className="h-line"></div>
+        <div className="h-line"></div>
+        <div className="h-line"></div>
+        <div className="h-line"></div>
+        <div className="h-line"></div>
+        <div className="v-line"></div>
+        <div className="v-line"></div>
+        <div className="v-line"></div>
+        <div className="v-line"></div>
+        <div className="v-line"></div>
+        <div className="v-line"></div>
+        <div className="v-line"></div>
+        <div className="v-line"></div>
+      </div>
       <div className="ttt-root">
         <div style={{ textAlign: "center" }}>
           <p className="Creator">Created by Megs</p>
